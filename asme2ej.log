@@ -1,0 +1,579 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.6)  15 JUN 2017 18:53
+entering extended mode
+**./asme2ej.tex
+(asme2ej.tex
+LaTeX2e <2017-04-15>
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+(asme2ej.cls
+
+LaTeX Warning: You have requested document class `asme2ej',
+               but the document class provides `asme2e'.
+
+Document Class: asme2e 2001/2/14 v2.0 Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\mathptm.sty"
+Package: mathptm 2005/04/12 PSNFSS-v9.2a Times w/ Math (SPQR, WaS) 
+
+
+Package mathptm Warning: This package is to be regarded as obsolete.
+(mathptm)                See the PSNFSS documentation.
+
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ptmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptmcm/m/n on input line 31.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 32.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ptmcm/m/it on input line 32.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ptmcm/m/it on input line 32.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 33.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/pzccm/m/n on input line 33.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/pzccm/m/n on input line 33.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 34.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 34.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 34.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 38.
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Ten Point
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 301.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\tempbox=\box26
+\c@figure=\count85
+\c@table=\count86
+\@authcnt=\count87
+\@tmpcnt=\count88
+\bibindent=\dimen102
+\tempbox=\box27
+\minute=\count89
+\hour=\count90
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count92
+) (asme2ej.aux
+
+LaTeX Warning: Label `step1.ps' multiply defined.
+
+
+LaTeX Warning: Label `step1.ps' multiply defined.
+
+
+LaTeX Warning: Label `table_ASME' multiply defined.
+
+
+LaTeX Warning: Label `step1.ps' multiply defined.
+
+
+LaTeX Warning: Label `table_ASME' multiply defined.
+
+
+LaTeX Warning: Label `table_ASME' multiply defined.
+
+)
+\openout1 = `asme2ej.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 69.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+\big@size=\dimen107
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count93
+\scratchdimen=\dimen108
+\scratchbox=\box28
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count96
+\MPscratchDim=\dimen109
+\MPnumerator=\count97
+\makeMPintoPDFobject=\count98
+\everyMPtoPDFconversion=\toks16
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 71
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 71
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlptmcm.fd"
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 71
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
+File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
+)
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 71
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxpsycm.fd"
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 71.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
+
+Underfull \hbox (badness 10000) detected at line 71
+[]
+ []
+
+LaTeX Font Info:    Try loading font information for T1+phv on input line 71.
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 81.
+
+<figure/twettami.png, id=1, 937.5025pt x 520.94624pt>
+File: figure/twettami.png Graphic file (type png)
+
+<use figure/twettami.png>
+Package pdftex.def Info: figure/twettami.png used on input line 103.
+(pdftex.def)             Requested size: 238.49121pt x 132.5176pt.
+Missing character: There is no á in font phvr7t!
+Missing character: There is no á in font phvr7t!
+Missing character: There is no á in font phvr7t!
+Missing character: There is no á in font phvr7t!
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+ <./figure/twettami.png>]
+Underfull \hbox (badness 2512) in paragraph at lines 115--117
+[]\T1/ptm/m/n/10 L'obiettivo definito all'inizio del pro-getto era im-
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 115--117
+\T1/ptm/m/n/10 Risolti quindi i prin-ci-pali prob-lemi legati ai tempi di
+ []
+
+
+Underfull \hbox (badness 7777) in paragraph at lines 115--117
+\T1/ptm/m/n/10 com-putazione, si é pro-ce-duto con l'esecuzione del
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 115--117
+\T1/ptm/m/n/10 pro-cesso di ge-olo-cal-iz-zazione. An-che qui, purtroppo,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
+\T1/ptm/m/n/10 i costi d'esecuzione non sono stati sod-dis-facenti:
+ []
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 115--117
+\T1/ptm/m/n/10 l'implementazione aveva un costo pari a $\OML/ptmcm/m/it/10 O\OT
+1/ptmcm/m/n/10 (\OML/ptmcm/m/it/10 n[]\OT1/ptmcm/m/n/10 )$\T1/ptm/m/n/10 , con
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 147--149
+\T1/ptm/m/n/10 Dal file yago-Facts.tsv emerge che i fatti pre-senti sono
+ []
+
+
+Underfull \hbox (badness 4254) in paragraph at lines 147--149
+\T1/ptm/m/n/10 Un ul-te-ri-ore as-petto in-ter-es-sante che ab-bi-amo no-tato
+ []
+
+<figure/sbo.png, id=12, 431.81325pt x 384.2355pt>
+File: figure/sbo.png Graphic file (type png)
+ <use figure/sbo.png>
+Package pdftex.def Info: figure/sbo.png used on input line 163.
+(pdftex.def)             Requested size: 231.26378pt x 205.78967pt.
+ [2 <./figure/sbo.png>]
+Underfull \hbox (badness 1102) in paragraph at lines 180--181
+\T1/ptm/m/n/10 e oggetto nei fatti pre-senti in YAGO. Ab-bi-amo quindi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 182.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 182.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 183.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <0.7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <0.5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 187.
+
+Underfull \hbox (badness 1389) in paragraph at lines 188--189
+\T1/ptm/m/n/10 quelle ap-punto giá es-istenti tra soggetto e oggetto
+ []
+
+<figure/join1.png, id=17, 738.96075pt x 321.6015pt>
+File: figure/join1.png Graphic file (type png)
+ <use figure/join1.png>
+Package pdftex.def Info: figure/join1.png used on input line 193.
+(pdftex.def)             Requested size: 260.17244pt x 113.22958pt.
+
+Underfull \hbox (badness 1460) in paragraph at lines 198--199
+[]\T1/ptm/m/n/10 L'esecuzione di questo join ha richiesto circa 120
+ []
+
+
+Overfull \vbox (11.48589pt too high) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
+\T1/ptm/m/n/10 Abbiamo quindi definito la nuova tabella
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
+\T1/ptm/m/it/10 relPhraseScore($[]$,p$[]$,score,probability)\T1/ptm/m/n/10 , in
+ cui in-
+ []
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 208.
+
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 219--221
+\T1/ptm/m/n/10 A quel punto ab-bi-amo definito una mappa \T1/ptm/m/it/10 HashMa
+p
+ []
+
+[3 <./figure/join1.png>] <figure/conta.png, id=23, 764.25525pt x 470.35725pt>
+File: figure/conta.png Graphic file (type png)
+
+<use figure/conta.png>
+Package pdftex.def Info: figure/conta.png used on input line 227.
+(pdftex.def)             Requested size: 260.17244pt x 160.1203pt.
+Missing character: There is no ú in font phvr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 276--277
+\T1/ptm/m/n/10 Abbiamo quindi ripetuto il pro-cesso di es-trazione di
+ []
+
+
+Overfull \hbox (21.26476pt too wide) in paragraph at lines 282--292
+ [] 
+ []
+
+[4 <./figure/conta.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--309
+
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 303--309
+\T1/ptm/m/n/10 Il nos-tro ap-proc-cio si é basato quindi sull'utilizzo di
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 316--318
+\T1/ptm/m/n/10 Per sostenere l'efficienza ab-bi-amo de-ciso di par-al-leliz-
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 316--318
+\T1/ptm/m/n/10 zare l'esecuzione del pre-filtro at-traverso l'utilizzo del
+ []
+
+[5]
+Underfull \hbox (badness 1205) in paragraph at lines 329--330
+\T1/ptm/m/n/10 at-traverso tre espres-sioni re-go-lari, é stato ef-fet-tuato un
+
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 329--330
+\T1/ptm/m/n/10 con-sis-tente pro-cesso di fil-trag-gio del file orig-i-nale \T1
+/ptm/m/it/10 sen-
+ []
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 331.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 331.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--334
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--337
+
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 335--337
+\T1/ptm/m/n/10 Questa frase ver-rebbe scar-tata e non sarebbe trat-tata
+ []
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 339.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 339.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 344.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 344.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 347.
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 347.
+
+<figure/preocesso.png, id=30, 257.16075pt x 548.64975pt>
+File: figure/preocesso.png Graphic file (type png)
+
+<use figure/preocesso.png>
+Package pdftex.def Info: figure/preocesso.png used on input line 353.
+(pdftex.def)             Requested size: 231.26378pt x 493.40349pt.
+
+Underfull \vbox (badness 1448) has occurred while \output is active []
+
+ [6 <./figure/preocesso.png>] <figure/dipendenze.png, id=34, 829.29825pt x 240.
+9pt>
+File: figure/dipendenze.png Graphic file (type png)
+
+<use figure/dipendenze.png>
+Package pdftex.def Info: figure/dipendenze.png used on input line 374.
+(pdftex.def)             Requested size: 495.05197pt x 170.72038pt.
+
+Overfull \hbox (27.03981pt too wide) in paragraph at lines 379--379
+[][]\T1/ptm/m/n/8 http://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_tree
+bank_pos.html| 
+ []
+
+
+Underfull \hbox (badness 4954) in paragraph at lines 384--390
+\T1/ptm/m/n/10 Abbiamo quindi cer-cato dei com-pro-messi tra queste
+ []
+
+
+Overfull \vbox (9.55067pt too high) has occurred while \output is active []
+
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7] [8 <./figure/dipendenze.png>] (asme2ej.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2383 strings out of 493328
+ 31323 string characters out of 3139122
+ 197170 words of memory out of 3000000
+ 5850 multiletter control sequences out of 15000+200000
+ 76786 words of font info for 124 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,10n,25p,1620b,301s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
+helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8
+a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on asme2ej.pdf (8 pages, 382329 bytes).
+PDF statistics:
+ 72 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
