@@ -195,11 +195,29 @@ morales & 25.7738889, -80.1938889 & \ 0,027 \\
 Un aspetto rilevante di questa fase \'e il calcolo delle distanze tra coordinate relative a citt\'a diverse. Nell'implementazione dello studente Tanzi era previsto un uso massiccio dell'API \textit{Google Geocoder} per determinare le coordinate corrispondenti a una citt\'a e poi calcolare le distanze. L'utilizzo dell'API \'e per\'o limitato ad un massimo di $2500$ richieste giornaliere e per questo motivo un approccio basato su continue interrogazioni \'e destinato a interrompersi. L'implementazione corrente sfrutta invece una mappa esistente di tipo \textit{citt\'a, coordinate} e inoltra richieste all'API soltanto nel caso in cui il record d'interesse non \'e presente. Tale implementazione sostiene anche l'utilizzo dello streaming per il retrieve di nuovi dati. Per il calcolo della distanza tra due coordinate abbiamo fatto uso della seguente formula: 
 $$d=  \arccos{\left ( \sin{\left (A_1 \right )} \cdot \sin{\left (A_2 \right )} + \cos{\left (A_1 \right )} \cdot \cos{\left (A_2 \right )} \cdot \cos{\left (B_2 - B_1 \right )} \cdot \lambda \right ) }$$
 
-con coordinate di latitudine $A_i$, longitudine $B_i$ e $\lambda=6371$. 
+e coordinate di latitudine $A_i$, longitudine $B_i$ e $\lambda=6371$. 
 
 \section{Risultati}
 
 Nel valutare l'accuratezza del modulo di geolocalizzazione si sono seguiti diversi approcci. \\Una prima verifica \'e stata effettuata focalizzandoci sul singolo messaggio: a ciascun tweet vengono associate le citt\'a pi\'u probabili sulla base del \textit{Tf-Idf} di ciascuna parola. In modo particolare, ciascuna parola \'e collegata a una lista di citt\'a con i relativi \textit{Tf-Idf}; parola per parola tali punteggi verranno aggregati. In questo modo viene stilata una classifica delle localit\'a pi\'u probabili di provenienza del tweet. L'accuratezza ottenuta selezionando la prima citt\'a \'e stata di circa il $3\%$. Aumentando fino a $5$ il numero di citt\'a candidate si \'e invece raggiunta un'accuratezza del $20\%$ Questa soluzione differisce dalle soluzioni presentate nel paper di riferimento, che invece focalizzano il processo di valutazione sul \textit{corpus tweet} dell'utente. \\I risultati presentati nell'articolo per questo tipo di valutazione attestano   
-valori di accuratezza compresi tra il $10$ e il $47\%$.  \\Il nostro approccio per la geolocalizzazione di un utente prevede come prima fase l'accorpamento di tutti i suoi tweet. Quindi, a partire da questo testo, viene calcolato il relativo \textit{Tf-Idf} che risulta molto pi\'u significativo rispetto a quello ottenuto dal singolo tweet. I risultati ottenuti in questo caso sono compresi tra il $12\%$ e il $37\%$. Una completa comparazione dei risultati \'e mostrata in Tab.2.
+valori di accuratezza compresi tra il $10$ e il $47\%$.  \\Il nostro approccio per la geolocalizzazione di un utente prevede come prima fase l'accorpamento di tutti i suoi tweet. Quindi, a partire da questo testo, viene calcolato il relativo \textit{Tf-Idf} che risulta molto pi\'u significativo rispetto a quello ottenuto dal singolo tweet. I risultati ottenuti in questo caso sono compresi tra il $12\%$ e il $37\%$. Una completa comparazione dei risultati \'e mostrata in Tab.2. \'E interessante notare che le stopword sono in realt\'a utili per una corretta geolocalizzazione.
 
+
+\begin{table}[h]
+\caption{Confronto dei risultati ottenuti con quelli presenti nel paper.}
+\begin{center}
+\label{table_ASME}
+\begin{tabular}{c l l l l l}
+& & \\ % put some space after the caption
+\hline
+Method & AC &  AC@2 &  AC@3 & AC@4 &  AC@5 \\
+\hline
+Baseline paper &  10,1\% &  37,5\% &  42,5\% & & 47,6\% \\
+Baseline  &  12,5\% &    &  26,2\% & 32,4\% & 36,2\% \\
++ Stopword &   &    &  &  & 32,3\% \\
+
+\hline
+\end{tabular}
+\end{center}
+\end{table}
 \end{document}
