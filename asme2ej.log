@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.6)  16 JUN 2017 15:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.6)  16 JUN 2017 16:28
 entering extended mode
 **./asme2ej.tex
 (asme2ej.tex
@@ -261,10 +261,6 @@ File: figure/twettami.png Graphic file (type png)
 <use figure/twettami.png>
 Package pdftex.def Info: figure/twettami.png used on input line 103.
 (pdftex.def)             Requested size: 238.49121pt x 132.5176pt.
-Missing character: There is no á in font phvr7t!
-Missing character: There is no á in font phvr7t!
-Missing character: There is no á in font phvr7t!
-Missing character: There is no á in font phvr7t!
  [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
@@ -322,9 +318,6 @@ Underfull \hbox (badness 1014) in paragraph at lines 176--194
  []
 
 
-Underfull \vbox (badness 1394) has occurred while \output is active []
-
-
 Underfull \hbox (badness 3713) in paragraph at lines 195--196
 []\T1/ptm/m/n/10 Un as-petto ril-e-vante di questa fase é il cal-colo
  []
@@ -339,7 +332,10 @@ Overfull \hbox (27.97014pt too wide) detected at line 196
 \OML/ptmcm/m/it/10 d \OT1/ptmcm/m/n/10 = [] []
  []
 
-[3 <./figure/matita2.png>]
+
+Underfull \vbox (badness 8019) has occurred while \output is active []
+
+ [3 <./figure/matita2.png>]
 Overfull \hbox (26.3969pt too wide) in paragraph at lines 210--221
  [] 
  []
@@ -358,7 +354,7 @@ Here is how much of TeX's memory you used:
  5784 multiletter control sequences out of 15000+200000
  43752 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,10n,25p,1208b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,10n,25p,1209b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -369,7 +365,7 @@ ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic
 KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on asme2ej.pdf (4 pages, 371706 bytes).
+Output written on asme2ej.pdf (4 pages, 371130 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

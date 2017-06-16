@@ -98,22 +98,22 @@ I dati presi in analisi nello studio condotto fanno riferimento a un dataset rel
 \end{enumerate}
 
 
-Considerate le dimensioni piuttosto contenute dei dati in questione, in un primo momento abbiamo definito un modulo per arricchire (locupletare) il dataset. La scelta \'e stata guidata inoltre dall'esigenza di rispondere in modo efficiente ed efficace all'evoluzione della lingua. Infatti, le formule di espressione linguistiche, in contesti estremamente dinamici come quelli dei social network, sono soggette a continui cambiamenti: i.e. slang, neologismi, trand sociali ecc.
+Considerate le dimensioni piuttosto contenute dei dati in questione, in un primo momento abbiamo definito un modulo per locupletare il dataset. La scelta \'e stata guidata inoltre dall'esigenza di rispondere in modo efficiente ed efficace all'evoluzione della lingua. Infatti, le formule di espressione linguistiche, in contesti estremamente dinamici come quelli dei social network, sono soggette a continui cambiamenti: i.e. slang, neologismi, trand sociali ecc.
 \begin{figure} 
 \centerline{\psfig{figure=figure/twettami.png,width=3.30in}}
-\caption{Architettura del modulo per il retrieve di tweet dallo stream. Vengono scartate citt\'a non USA e vengono associati agli stati alle citt\'a non correttamente formattate.}
+\caption{Architettura del modulo per il retrieve di tweet dallo stream. Vengono scartate citta' non USA e vengono associati gli stati alle citta' non correttamente formattate.}
 \label{gazproc.ps}
 \end{figure}
 
 
  
-Il modulo implementato \'e essenzialmente un filtro che sfrutta lo stream offerto da \textbf{Twitter4j} effettuando una cernita tra tweet di interesse e non.\\ Per tweet di interesse si fa riferimento alla classe di aggiornamenti provenienti da utenti \textit{ben geolocalizzati}: l'attributo \textit{position} dell'utente deve comparire nella forma \textit{citt\'a , stato} e la coppia in questione deve essere collocabile all'interno del territorio statunitense. Inoltre per far fronte all'eccessivo numero di utenti che  dichiarano la citt\'a senza fornire lo Stato di appartenenza si \'e deciso di seguire un approccio gazetteer per l'individuazione dello Stato.\\ Considerando l'ingente tasso di omonimia fra i nomi delle citt\'a americane, data una citt\'a senzo uno stato, si associa ad essa lo Stato relativo alla citt\'a pi\'u popolosa con quel nome. \\Mediante l'utilizzo di questo approccio vengono scartati fino all' $80\%$ di tweet che non sono geotaggati. 
+Il modulo implementato \'e essenzialmente un filtro che sfrutta lo stream offerto da \textbf{Twitter4j} effettuando una cernita tra tweet di interesse e non.\\ Per tweet di interesse si fa riferimento alla classe di aggiornamenti provenienti da utenti \textit{ben geolocalizzati}: l'attributo \textit{position} dell'utente deve comparire nella forma \textit{citt\'a , stato} e la coppia in questione deve essere collocabile all'interno del territorio statunitense. Inoltre per far fronte all'eccessivo numero di utenti che  dichiarano la citt\'a senza fornire lo Stato di appartenenza si \'e deciso di seguire un approccio gazetteer per l'individuazione dello Stato.\\ Considerando l'ingente tasso di omonimia fra i nomi delle citt\'a americane, data una citt\'a senza uno stato, si associa ad essa lo Stato relativo alla citt\'a pi\'u popolosa con quel nome. \\Mediante l'utilizzo di questo approccio vengono scartati fino all' $80\%$ dei tweet che non sono geotaggati. 
 
 
 \section{Problematiche  iniziali}
 
 L'obiettivo definito all'inizio del progetto era improntato all' \textit{intention mining} degli utenti, diversificandoli sulla base della loro localizzazione. \\ Per il task di localizzazione si voleva utilizzare il tool realizzato dallo studente Tanzi e quindi si \'e proceduto con un'attenta analisi del codice e delle rispettive funzionalit\'a.
-Gi\'a dalla prima esecuzione non \'e stato possibile ottenere l'output sperato. \\In particolar modo, \'e emerso che il dataset in input prensentava tweet malformattati che non rispettavano la struttura necessaria per l'esecuzione del tool. \\ Escludendo i tweet in questione e testando il tool su un sottoinsieme del dataset iniziale \'e stato quindi possibile effettuare una stima del tempo d'esecuzione del processo di \textit{parsing} sull'intero dataset. Il tempo richiesto stimato ammontava a circa una settimana a causa dell'utilizzo di strumenti non strettamente necessari, come spiegato nella Sezione successiva.  \\ Risolti quindi i principali problemi legati ai tempi di computazione, si \'e proceduto con l'esecuzione del processo di geolocalizzazione. Anche qui, purtroppo, i costi d'esecuzione non sono stati soddisfacenti: l'implementazione aveva un costo pari a $O(n^3)$, con tempi di esecuzione stimati di circa 6 giorni.\\ Alla luce delle problematiche riscontrate si \'e quindi deciso di rinunciare al task legato all'intention mining degli utenti e piuttosto di focalizzarsi su un'implementazione funzionante e performante del processo di geolocalizzazione.
+Gi\'a dalla prima esecuzione non \'e stato possibile ottenere l'output sperato. \\In particolar modo, \'e emerso che il dataset in input prensentava tweet malformattati che non rispettavano la struttura necessaria per l'esecuzione del tool. \\ Escludendo i tweet in questione e testando il tool su un sottoinsieme del dataset iniziale, \'e stato quindi possibile effettuare una stima del tempo d'esecuzione del processo di \textit{parsing} sull'intero dataset. Il tempo richiesto stimato ammontava a circa una settimana a causa dell'utilizzo di strumenti non strettamente necessari, come spiegato nella Sezione successiva.  \\ Risolti quindi i principali problemi legati ai tempi di computazione, si \'e proceduto con l'esecuzione del processo di geolocalizzazione. Anche qui, purtroppo, i costi d'esecuzione non sono stati soddisfacenti: l'implementazione aveva un costo pari a $O(n^3)$, con tempi di esecuzione stimati di circa 6 giorni.\\ Alla luce delle problematiche riscontrate si \'e quindi deciso di rinunciare al task legato all'intention mining degli utenti e piuttosto di focalizzarsi su un'implementazione funzionante e performante del processo di geolocalizzazione.
 
 \section{Descrizione dei flussi di esecuzione}
 
@@ -135,7 +135,7 @@ Nel paper \textit{You Are Where You Tweet} il fulcro del processo di geolocalizz
 
 \begin{figure*}
   \includegraphics[width=16cm,height=8.65cm]{figure/matita2.png}
-  \caption{Nella figura vengono mostrate le dipendenze individuate tramite la libreria di Stanford. Gli nmod rilevanti, cerchiati in verde, sono quelli che presentano diversi dependent. nmod:of viene quindi scartato in quanto presenta una sola dependent.}
+  \caption{Flussi di esecuzione nel processo di raffinamento e ottimizzazione del dataset iniziale.}
 \end{figure*}  
 
 
@@ -163,12 +163,12 @@ La fase di pulizia del dataset si occupa di scartare tutti quei tweet che non so
 
 Alla fine di questa fase vengono scartati ben $170K$ tweet. I rimanenti subiscono un' ulteriore traformazione consistente in un join con  le coppie \textit{utente-citt\'a}. \\Come accennato in precedenza, nel dataset non tutti gli utenti sono correttamente geotaggati.\\ Il problema pi\'u frequente consiste nel fatto che alcune citt\'a sono sprovviste della sigla dello Stato: per ovviare a questo problema si \'e adottata la soluzione di assegnare alle citt\'a lo stato corrispondente alla citt\'a omonima e pi\'u popolosa. Anche in caso di citt\'a malformattate, come ad esempio  \textit{New York, New York}, il secondo elemento viene rimosso in favore del relativo Stato. 
 
-\subsection{TfIdf}
+\subsection{Tf-Idf}
 
 Il processo di geolocalizzazione avviene sulla base del calcolo del \textit{Tf-Idf} delle parole all'interno dei tweet. Intuitivamente parole che sono utilizzate molto in una citt\'a e poco nelle altre sono  preziosi indicatori. \\La formula utilizzata differisce leggermente da quella presente nel paper, ed \'e la seguente: $$tf_{ij}=	\frac{f_{ij}}{max_k	\left \{ f_{kj} \right \}	}$$
 
 $$idf_i= log_{a}\left ( \frac{N}{df_i} \right )$$
-In un primo momento nel calcolo del \textit{tf-idf} sono state prese in considerazione tutti i termini presenti nei tweet, implicando un tempo di esecuzione di circa $4h$. Dopo un'attenta analisi \'e emerso che molti dei termini presenti, circa il $90\%$, si presentavano meno di 50 volte all'interno dell'intero dataset. Escludendo le parole in questione e senza avere impatti negativi sull'accuratezza \'e stato possibile abbassare il tempo di esecuzione a $15 min$. 
+In un primo momento nel calcolo del \textit{tf-idf} sono state presi in considerazione tutti i termini presenti nei tweet, implicando un tempo di esecuzione di circa $4h$. Dopo un'attenta analisi \'e emerso che molti dei termini presenti, circa il $90\%$, si presentavano meno di 50 volte all'interno dell'intero dataset. Escludendo le parole in questione e senza avere impatti negativi sull'accuratezza \'e stato possibile abbassare il tempo di esecuzione a $15 min$. 
 
 
 \subsection{Validazione}
