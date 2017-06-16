@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.6)  15 JUN 2017 18:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.6)  16 JUN 2017 13:05
 entering extended mode
 **./asme2ej.tex
 (asme2ej.tex
@@ -128,26 +128,7 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count92
-) (asme2ej.aux
-
-LaTeX Warning: Label `step1.ps' multiply defined.
-
-
-LaTeX Warning: Label `step1.ps' multiply defined.
-
-
-LaTeX Warning: Label `table_ASME' multiply defined.
-
-
-LaTeX Warning: Label `step1.ps' multiply defined.
-
-
-LaTeX Warning: Label `table_ASME' multiply defined.
-
-
-LaTeX Warning: Label `table_ASME' multiply defined.
-
-)
+) (asme2ej.aux)
 \openout1 = `asme2ej.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
@@ -163,7 +144,8 @@ LaTeX Font Info:    ... okay on input line 69.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 69.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 \big@size=\dimen107
@@ -314,266 +296,69 @@ Underfull \hbox (badness 3108) in paragraph at lines 115--117
 1/ptmcm/m/n/10 (\OML/ptmcm/m/it/10 n[]\OT1/ptmcm/m/n/10 )$\T1/ptm/m/n/10 , con
  []
 
+<figure/usatw.png, id=12, 817.0525pt x 612.2875pt>
+File: figure/usatw.png Graphic file (type png)
+ <use figure/usatw.png>
+Package pdftex.def Info: figure/usatw.png used on input line 131.
+(pdftex.def)             Requested size: 238.49121pt x 178.71733pt.
 
-Underfull \hbox (badness 1152) in paragraph at lines 147--149
-\T1/ptm/m/n/10 Dal file yago-Facts.tsv emerge che i fatti pre-senti sono
+<figure/matita2.png, id=14, 1719.42375pt x 852.18375pt>
+File: figure/matita2.png Graphic file (type png)
+
+<use figure/matita2.png>
+Package pdftex.def Info: figure/matita2.png used on input line 137.
+(pdftex.def)             Requested size: 455.22534pt x 246.1127pt.
+
+Underfull \hbox (badness 3209) in paragraph at lines 144--145
+\T1/ptm/m/n/10 Questo pro-cesso in-tro-duce un over-head con-sid-erev-ole,
+ []
+
+[2 <./figure/usatw.png>]
+Underfull \hbox (badness 1014) in paragraph at lines 176--194
+[]\T1/ptm/m/n/10 Il mod-ulo di ge-olo-cal-iz-zazione é stato val-idato sul
  []
 
 
-Underfull \hbox (badness 4254) in paragraph at lines 147--149
-\T1/ptm/m/n/10 Un ul-te-ri-ore as-petto in-ter-es-sante che ab-bi-amo no-tato
- []
+Underfull \vbox (badness 1394) has occurred while \output is active []
 
-<figure/sbo.png, id=12, 431.81325pt x 384.2355pt>
-File: figure/sbo.png Graphic file (type png)
- <use figure/sbo.png>
-Package pdftex.def Info: figure/sbo.png used on input line 163.
-(pdftex.def)             Requested size: 231.26378pt x 205.78967pt.
- [2 <./figure/sbo.png>]
-Underfull \hbox (badness 1102) in paragraph at lines 180--181
-\T1/ptm/m/n/10 e oggetto nei fatti pre-senti in YAGO. Ab-bi-amo quindi
+
+Underfull \hbox (badness 3713) in paragraph at lines 195--196
+[]\T1/ptm/m/n/10 Un as-petto ril-e-vante di questa fase é il cal-colo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
+Underfull \hbox (badness 4254) in paragraph at lines 195--196
+\T1/ptm/m/n/10 delle dis-tanze tra co-or-di-nate rel-a-tive a cittá di-verse.
  []
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 182.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 182.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
-LaTeX Font Info:    Calculating math sizes for size <> on input line 183.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <0.7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <0.5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 183.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 187.
-
-Underfull \hbox (badness 1389) in paragraph at lines 188--189
-\T1/ptm/m/n/10 quelle ap-punto giá es-istenti tra soggetto e oggetto
+Overfull \hbox (95.5581pt too wide) detected at line 196
+\OML/ptmcm/m/it/10 dist \OT1/ptmcm/m/n/10 = [] []
  []
 
-<figure/join1.png, id=17, 738.96075pt x 321.6015pt>
-File: figure/join1.png Graphic file (type png)
- <use figure/join1.png>
-Package pdftex.def Info: figure/join1.png used on input line 193.
-(pdftex.def)             Requested size: 260.17244pt x 113.22958pt.
+[3 <./figure/matita2.png>] [4
 
-Underfull \hbox (badness 1460) in paragraph at lines 198--199
-[]\T1/ptm/m/n/10 L'esecuzione di questo join ha richiesto circa 120
- []
-
-
-Overfull \vbox (11.48589pt too high) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--206
-\T1/ptm/m/n/10 Abbiamo quindi definito la nuova tabella
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--206
-\T1/ptm/m/it/10 relPhraseScore($[]$,p$[]$,score,probability)\T1/ptm/m/n/10 , in
- cui in-
- []
-
-
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 208.
-
-
-
-Underfull \hbox (badness 2600) in paragraph at lines 219--221
-\T1/ptm/m/n/10 A quel punto ab-bi-amo definito una mappa \T1/ptm/m/it/10 HashMa
-p
- []
-
-[3 <./figure/join1.png>] <figure/conta.png, id=23, 764.25525pt x 470.35725pt>
-File: figure/conta.png Graphic file (type png)
-
-<use figure/conta.png>
-Package pdftex.def Info: figure/conta.png used on input line 227.
-(pdftex.def)             Requested size: 260.17244pt x 160.1203pt.
-Missing character: There is no ú in font phvr7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
-
- []
-
-
-Underfull \hbox (badness 3199) in paragraph at lines 276--277
-\T1/ptm/m/n/10 Abbiamo quindi ripetuto il pro-cesso di es-trazione di
- []
-
-
-Overfull \hbox (21.26476pt too wide) in paragraph at lines 282--292
- [] 
- []
-
-[4 <./figure/conta.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--309
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--309
-
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 303--309
-\T1/ptm/m/n/10 Il nos-tro ap-proc-cio si é basato quindi sull'utilizzo di
- []
-
-
-Underfull \hbox (badness 1622) in paragraph at lines 316--318
-\T1/ptm/m/n/10 Per sostenere l'efficienza ab-bi-amo de-ciso di par-al-leliz-
- []
-
-
-Underfull \hbox (badness 2970) in paragraph at lines 316--318
-\T1/ptm/m/n/10 zare l'esecuzione del pre-filtro at-traverso l'utilizzo del
- []
-
-[5]
-Underfull \hbox (badness 1205) in paragraph at lines 329--330
-\T1/ptm/m/n/10 at-traverso tre espres-sioni re-go-lari, é stato ef-fet-tuato un
-
- []
-
-
-Underfull \hbox (badness 1019) in paragraph at lines 329--330
-\T1/ptm/m/n/10 con-sis-tente pro-cesso di fil-trag-gio del file orig-i-nale \T1
-/ptm/m/it/10 sen-
- []
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 331.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 331.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--334
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 335--337
-
- []
-
-
-Underfull \hbox (badness 3260) in paragraph at lines 335--337
-\T1/ptm/m/n/10 Questa frase ver-rebbe scar-tata e non sarebbe trat-tata
- []
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 339.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 339.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 344.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 344.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 347.
-
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 347.
-
-<figure/preocesso.png, id=30, 257.16075pt x 548.64975pt>
-File: figure/preocesso.png Graphic file (type png)
-
-<use figure/preocesso.png>
-Package pdftex.def Info: figure/preocesso.png used on input line 353.
-(pdftex.def)             Requested size: 231.26378pt x 493.40349pt.
-
-Underfull \vbox (badness 1448) has occurred while \output is active []
-
- [6 <./figure/preocesso.png>] <figure/dipendenze.png, id=34, 829.29825pt x 240.
-9pt>
-File: figure/dipendenze.png Graphic file (type png)
-
-<use figure/dipendenze.png>
-Package pdftex.def Info: figure/dipendenze.png used on input line 374.
-(pdftex.def)             Requested size: 495.05197pt x 170.72038pt.
-
-Overfull \hbox (27.03981pt too wide) in paragraph at lines 379--379
-[][]\T1/ptm/m/n/8 http://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_tree
-bank_pos.html| 
- []
-
-
-Underfull \hbox (badness 4954) in paragraph at lines 384--390
-\T1/ptm/m/n/10 Abbiamo quindi cer-cato dei com-pro-messi tra queste
- []
-
-
-Overfull \vbox (9.55067pt too high) has occurred while \output is active []
-
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7] [8 <./figure/dipendenze.png>] (asme2ej.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+] (asme2ej.aux) ) 
 Here is how much of TeX's memory you used:
- 2383 strings out of 493328
- 31323 string characters out of 3139122
- 197170 words of memory out of 3000000
- 5850 multiletter control sequences out of 15000+200000
- 76786 words of font info for 124 fonts, out of 3000000 for 9000
+ 2301 strings out of 493328
+ 30161 string characters out of 3139122
+ 191131 words of memory out of 3000000
+ 5784 multiletter control sequences out of 15000+200000
+ 43752 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,10n,25p,1620b,301s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
-helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8
-a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
-imes/utmri8a.pfb>
-Output written on asme2ej.pdf (8 pages, 382329 bytes).
+ 39i,10n,25p,1208b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helveti
+c/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on asme2ej.pdf (4 pages, 366178 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
